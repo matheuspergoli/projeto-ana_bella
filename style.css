@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    min-width: 300px;
+    max-width: 900px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(imagens/fundo.png);
+    background-attachment: fixed;
+}
+
+header > img {
+    margin-top: 7px;
+    width: 100%;
+}
+
+nav {
+    text-align: center;
+    background-color: #c5c5b2;
+    padding: 20px;
+}
+
+nav > a {
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    margin-top: 5px;
+    padding: 5px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.404);
+    text-decoration: none;
+}
+
+nav > a:hover {
+    background-color: rgba(0, 0, 0, 0.144);
+    color: white;
+}
+
+main {
+    background-color: #e8e8d9;
+    padding-bottom: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.432);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+main > img {
+    border: solid #c5c5b2;
+    border-width: 10px;
+    display: block;
+    margin: auto;
+    width: 70%;
+    box-sizing: border-box;
+}
+
+main > h2 {
+    color: rgba(0, 0, 0, 0.404);
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+main > p {
+    padding: 10px 11px 10px 11px;
+    text-align: justify;
+}
+
+main > #contato {
+    display: inline;
+}
+
+main > #foto {
+    margin-bottom: 10px;
+}
+
+footer {
+    font-weight: bold;
+    padding: 25px;
+    text-align: center;
+}
